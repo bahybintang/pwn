@@ -1,0 +1,1 @@
+copy sh.png/b + sh.php she.png
