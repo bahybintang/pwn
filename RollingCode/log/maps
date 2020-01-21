@@ -1,6 +1,0 @@
-7fada4767000-7fada4771000 r-xp 00000000 08:01 22451783                   /usr/bin/dumb-init
-7fada4970000-7fada4972000 rw-p 00009000 08:01 22451783                   /usr/bin/dumb-init
-7ffcc2c13000-7ffcc2c34000 rw-p 00000000 00:00 0                          [stack]
-7ffcc2ddc000-7ffcc2ddf000 r--p 00000000 00:00 0                          [vvar]
-7ffcc2ddf000-7ffcc2de1000 r-xp 00000000 00:00 0                          [vdso]
-ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
