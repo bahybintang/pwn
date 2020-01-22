@@ -1,7 +1,6 @@
 #!/usr/bin/python
 import sys
 
-#
 
 endState = sys.argv[1]
 bits = sys.argv[2]
