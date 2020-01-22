@@ -12,8 +12,11 @@
             ],
             "cStandard": "c11",
             "intelliSenseMode": "gcc-x64",
-            "compilerPath": "C:/MinGW/bin/g++.exe",
-            "cppStandard": "c++11"
+            "compilerPath": "C:/MinGW64/bin/g++.exe",
+            "cppStandard": "c++11",
+            "compilerArgs": [
+                "-std=c++11"
+            ]
         }
     ],
     "version": 4
