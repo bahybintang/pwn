@@ -2,9 +2,9 @@
 #include <stdio.h>
 using namespace std;
 
-unsigned long long tebak1 = 20832041;
-unsigned long long tebak2 = 9566336;
-unsigned long long state = 0;
+unsigned long long tebak1 = 55620114;
+unsigned long long tebak2 = 65288691;
+thread_local unsigned long long state = 0;
 const unsigned long long MAX = 4295032832;
 
 void setup(unsigned long long seed)
@@ -57,7 +57,7 @@ void run(unsigned long long start, unsigned long long end)
 			if (next(26) == tebak2)
 			{
 				printf("Finished, hasil: %lld\n", next(26));
-				break;
+				exit(1);
 			}
 		}
 		seed++;

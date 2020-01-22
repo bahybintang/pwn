@@ -29,6 +29,9 @@ def next(bits):
 
 	return ret
 
-setup((random.randrange(0x10000) << 16) | random.randrange(0x10000))
+# setup((random.randrange(0x10000) << 16) | random.randrange(0x10000))
+setup(1073758209)
+print next(26)
+print next(26)
 
 # 
