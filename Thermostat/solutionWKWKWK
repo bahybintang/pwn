@@ -1,0 +1,1 @@
+strings classes.dex | grep FLAG
